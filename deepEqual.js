@@ -30,3 +30,5 @@ var deepEqual = function (item1, item2) {
       return false;
   }
 };
+
+//since null === null  and this runs before the case for objects, this works for null too.
